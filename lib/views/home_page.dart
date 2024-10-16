@@ -95,6 +95,10 @@ class _HomePageState extends State<HomePage> {
               );
             }),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: getData,
+        child:  const Icon(Icons.people),
+      ),
     );
   }
 }
